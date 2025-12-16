@@ -17,7 +17,14 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Zanunu Studio - Professional Photography & Printing Services",
   description: "Capturing moments, creating memories. Professional photography and printing press services with excellence and artistry.",
-  keywords: "photography, printing, studio, professional photography, printing services",
+  keywords: "photography, printing, studio, professional photography, printing services, Sierra Leone Photo Studio, Salone, Salone Photo Studio, Sierra Leone Photo Press, Salone Photo Press",
+  openGraph: {
+    title: "Zanunu Studio - Professional Photography & Printing Services",
+    description: "Capturing moments, creating memories. Professional photography and printing press services with excellence and artistry.",
+    images: [
+      { url: "/zanunu-logo.jpg" },
+    ],
+  },
 };
 
 export default function RootLayout({
